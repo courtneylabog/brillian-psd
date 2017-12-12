@@ -1,0 +1,43 @@
+// media query mixins
+$xxs: 320px;
+$xs: 580px;
+$sm: 768px;
+$md: 940px;
+$lg: 1199px;
+
+@mixin iphone4 {
+  @media (max-width: #{$iphone4}) {
+    @content;
+  }
+}
+
+
+@mixin xxs {
+  @media (max-width: #{$xxs}) {
+    @content;
+  }
+}
+
+@mixin xs {
+  @media (max-width: #{$xs}) {
+    @content;
+  }
+}
+
+@mixin sm {
+  @media (max-width: #{$sm}) {
+    @content;
+  }
+}
+
+@mixin md {
+  @media (max-width: #{$md}) {
+    @content;
+  }
+}
+
+@mixin lg {
+  @media (max-width: #{$lg}) {
+    @content;
+  }
+}

@@ -1,0 +1,49 @@
+header{
+	grid-column: span 11;
+	font-family: $font-content;
+
+	h1{
+		font-family: $font-header;
+		margin: 20px 0px 25px 70px;
+	}
+}
+
+nav{
+	display: flex; 
+	grid-column: span 11; 
+
+	.nav__logo{
+		width: 50%;
+	}
+	.nav__list{
+		width: 50%;
+
+		ul{
+			display: flex;
+			list-style-type: none;
+			padding: 0;
+			li a{
+				text-decoration: none;
+				padding: 20px;
+			}
+		}
+	}
+}
+
+.hero__image{
+	grid-column: span 11;
+	img{
+		width: 100%;
+	}
+}
+
+.sidenav{
+	grid-column: span 1;
+	display: flex;
+	flex-direction: column;
+
+	.sidenav__icon__container{
+		display: flex;
+		flex-direction: column;
+	}
+}
