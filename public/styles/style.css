@@ -151,14 +151,17 @@ nav {
   nav .nav__logo {
     width: 50%; }
   nav .nav__list {
-    width: 50%; }
+    width: 50%;
+    margin-top: 18px; }
     nav .nav__list ul {
       display: flex;
       list-style-type: none;
-      padding: 0; }
-      nav .nav__list ul li a {
-        text-decoration: none;
+      padding: 0;
+      justify-content: flex-end; }
+      nav .nav__list ul li {
         padding: 20px; }
+      nav .nav__list ul li:last-child {
+        padding-right: 0; }
 
 .hero__image {
   grid-column: span 11; }
@@ -176,3 +179,6 @@ nav {
 section {
   grid-column: span 12;
   font-family: "Karla", sans-serif; }
+
+h2 {
+  font-family: "Playfair Display", serif; }

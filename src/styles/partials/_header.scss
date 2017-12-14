@@ -17,14 +17,20 @@ nav{
 	}
 	.nav__list{
 		width: 50%;
+		margin-top: 18px;
 
 		ul{
 			display: flex;
 			list-style-type: none;
 			padding: 0;
-			li a{
-				text-decoration: none;
+			justify-content: flex-end;
+
+			li{
 				padding: 20px;
+			}
+
+			li:last-child{
+				padding-right: 0;
 			}
 		}
 	}
@@ -32,6 +38,7 @@ nav{
 
 .hero__image{
 	grid-column: span 11;
+	
 	img{
 		width: 100%;
 	}
